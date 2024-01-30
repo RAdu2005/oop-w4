@@ -66,13 +66,18 @@ public class App
 
                     myUniversity.calculateMedian(index);
                     break;
+                }case 7: {
+                    myUniversity.saveStudents();
+                    break;
+                }case 8: {
+                    myUniversity.loadStudents();
+                    break;
                 }case 0: {
                     System.out.println("Thank you for using the program.");
                     sc.close();
                     System.exit(0);
                     return;
                 }default:
-                    System.out.println("Wrong input value!");
                     break;                    
             }
         }
