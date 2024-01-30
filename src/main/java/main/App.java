@@ -1,3 +1,4 @@
+//Week 4 OOP Radu Stoiana
 package main;
 
 import java.util.Scanner;
