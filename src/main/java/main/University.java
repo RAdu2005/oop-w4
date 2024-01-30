@@ -13,7 +13,7 @@ public class University implements Serializable{
     }
 
     public void listStudents(boolean printNo){
-        System.out.println("Students:");
+        //System.out.println("Students:");
         int index = 0;
         for(Student i : studentList){
             if(printNo){ System.out.println(i.no + ": " + i.name); }
